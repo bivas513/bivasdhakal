@@ -1,0 +1,32 @@
+body{
+	margin: 0;
+	background-color: #f1f1f1;
+}
+header{
+	background-color: red;
+	padding: 20px;
+	text-align: center;
+	color: blue;
+}
+
+nav{
+	overflow: hidden;
+	background-color: #333;
+}
+nav a{
+	float: left;
+	color: white;
+	padding: 14px;
+
+}
+nav a:hover{
+	background-color: blue;
+	color: white;
+}
+.column{
+	float: left;
+	padding: 10px;
+}
+.column .side{
+	width: 25%;
+}
